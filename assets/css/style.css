@@ -69,6 +69,7 @@ ul{
     padding: 0;
     list-style: none;
 }
+
 a{
     text-decoration: none;
     color: var(--text-color);
@@ -305,6 +306,11 @@ header.sticky ul li a:hover{
     height: 220px;
 }
 
+.about__text a {
+  text-decoration: underline;
+  color: blue;
+}
+
 .about__subtitle{
     font-size: var(--h2-font-size);
     color: var(--first-color);
@@ -312,11 +318,15 @@ header.sticky ul li a:hover{
 }
 .about__text{
     margin-bottom: var(--mb-4);
-    text-align: justify;
+    text-align: center;
 }
 .about__profession{
     display: block;
     margin-bottom: var(--mb-4);
+    text-align: center;
+}
+.about__social{
+    text-align: center;
 }
 .about__social-icon{
     font-size: 1.4rem;

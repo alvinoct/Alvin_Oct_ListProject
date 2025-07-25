@@ -4,6 +4,7 @@
             header.classList.toggle("sticky", window.scrollY > 0);
         })
 
+ console.log('sini');       
 /*===== MENU SHOW =====*/
 const showMenu = (toggleId, navId) => {
     const toggle = document.getElementById(toggleId),
@@ -48,12 +49,12 @@ function scrollActive() {
 }
 
 /*===== SCROLL REVEAL ANIMATION =====*/
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-})
+// const sr = ScrollReveal({
+//     origin: 'top',
+//     distance: '80px',
+//     duration: 2000,
+//     reset: true
+// })
 
 //sticky header
 // window.addEventListener("scroll", function () {

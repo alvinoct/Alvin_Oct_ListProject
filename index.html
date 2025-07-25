@@ -20,16 +20,14 @@
     <header class="l-header">
         <nav class="nav bd-grid">
             <div>
-                <a href="#" class="nav__logo">AlvinOct</a>
+                <a href="#" class="nav__logo">AlvinOct Project</a>
             </div>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
-                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    <li class="nav__item"><a href="#portfolio" class="nav__link">Project</a></li>
                 </ul>
             </div>
 
@@ -38,34 +36,6 @@
             </div>
         </nav>
     </header>
-    <!-- <script type="text/javascript">
-        window.addEventListener("scroll", function () {
-            var header = document.querySelector("header");
-            header.classList.toggle("sticky", window.scrollY > 0);
-        })
-    </script>
-    <script type="text/javascript">
-        const showMenu = (toggleId, navId) => {
-            const toggle = document.getElementById(toggleId),
-                nav = document.getElementById(navId)
-
-            if (toggle && nav) {
-                toggle.addEventListener('click', () => {
-                    nav.classList.toggle('show')
-                })
-            }
-        }
-        showMenu('nav-toggle', 'nav-menu')
-    </script>
-    <script type="text/javascript">
-        const navLink = document.querySelectorAll('.nav__link')
-
-        function linkAction() {
-            const navMenu = document.getElementById('nav-menu')
-            navMenu.classList.remove('show')
-        }
-        navLink.forEach(n => n.addEventListener('click', linkAction))
-    </script> -->
     <main class="l-main">
         <!--===== HOME =====-->
         <section class="home" id="home">
@@ -73,8 +43,8 @@
                 <!-- <img src="assets/img/bg.jpg"
                     style="background-size:cover;object-fit: cover;height: auto;width: 100%;overflow: hidden;"> -->
                 
-                <h1 class="home__halo">HELLO, I'M</h1>
-                <h1 class="home__title"><span>ALVIN</span><br>OCTAVIANUS.</h1>
+                <h1 class="home__halo">Alvin Octavianus</h1>
+                <h1 class="home__title"><span>Project</span> List.</h1>
                 <div class="home__scroll">     
                     <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll down</a>
                 </div>
@@ -87,133 +57,54 @@
 
         <!--===== ABOUT =====-->
         <section class="about section" id="about">
-            <h2 class="section-title">About Me</h2>
+            <h2 class="section-title">About</h2>
 
-            <div class="about__container bd-grid">
-                <div class="about__img">
-                    <img src="assets/img/more.png" alt="" class="more">
-                </div>
-
+            <div class="about__container">
                 <div>
-                    <h2 class="about__subtitle">I'am Alvin Octavianus</h2>
-                    <span class="about__profession">Programmer</span>
-                    <p class="about__text">Hello, I'm Alvin Octavianus. I am 20 years old now taking majoring
-                        information Technology as a student at Universitas Multimedia Nusantara
-                        (UMN). I am a person who can work well in a team.</p>
-                    <p class="about__text">For now, I'm taking an organization at the Universitas Multimedia Nusantara
-                        (UMN), namely U-Store as
-                        a member of the IT division, totaling four people. Within that organization my team and I
-                        created and maintain the website for that organization.</p>
+                    <p class="about__text">This website features a collection of projects I've worked on.</p>
+                    <p class="about__text">
+                        For further details about my background and experience, please visit my
+                        <a href="https://github.com/alvinoct" target="_blank">GitHub</a>
+                        or view my complete
+                        <a href="https://alvin-oct-portfolio.vercel.app/" target="_blank">portfolio</a>.
+                    </p>
+
 
                     <div class="about__social">
-                        <a href="https://www.linkedin.com/in/alvin-octavianus-28a0b6166/" class="about__social-icon"><i
-                                class='bx bxl-linkedin'></i></a>
                         <a href="https://github.com/alvinoct" class="about__social-icon"><i
                                 class='bx bxl-github'></i></a>
-                        <a href="https://www.instagram.com/alvinoct_" class="about__social-icon"><i
-                                class='bx bxl-instagram'></i></a>
                     </div>
-
                 </div>
             </div>
         </section>
-
-        <!--===== SKILLS =====-->
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-            <div class="bd-grid">
-                <div class="skills__box">
-                    <button class="accordion">Development</button>
-                    <!-- <h3 class="skills__subtitle">Development</h3> -->
-                    <div class="panel">
-                        <li>
-                            <p class="skills__name">Html (80%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Css (80%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Javascript (60%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Java (70%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Python (50%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">MySQL (75%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Php (60%)</p>
-                        </li>
-                    </div>
-                    <button class="accordion">Design</button>
-                    <!-- <h3 class="skills__subtitle">Design</h3> -->
-                    <div class="panel">
-                        <li>
-                            <p class="skills__name">Figma (85%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Canva (90%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Photoshop (70%)</p>
-                        </li>
-                        <li>
-                            <p class="skills__name">Premier Pro (75%)</p>
-                        </li>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- <script type="text/javascript">
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                    /* Toggle between adding
-                                   and removing the "active" class, to highlight the button that controls the panel */
-                    this.classList.toggle("active"); /* Toggle between hiding and showing the active panel */
-                    var
-                        panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                        panel.style.display = "none";
-                    } else {
-                        panel.style.display = "block";
-                    }
-                });
-            }
-        </script> -->
-
-        <!-- <script>
-            var acc = document.getElementsByClassName("accordion");
-            var i;
-
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.maxHeight) {
-                        panel.style.maxHeight = null;
-                    } else {
-                        panel.style.maxHeight = panel.scrollHeight + "px";
-                    }
-                });
-            }
-        </script> -->
 
         <!--===== PORTFOLIO =====-->
         <section class="portfolio section" id="portfolio">
-            <h2 class="section-title">Portfolio</h2>
-            <h3 class="project">My Latest Project</h3>
+            <h2 class="section-title">Project</h2>
+            <h3 class="project">List Of My Project</h3>
 
             <div class="portfolio__container bd-grid">
                 <div class="portfolio__img">
+                    <h4>Portfolio</h4>
+                    <img src="assets/img/portfolio.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
+
+                    <div class="portfolio__link">
+                        <a href="https://alvin-oct-portfolio.vercel.app/" class="portfolio__link-name">View
+                            details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h4>Transcribe and Summarize Audio App</h4>
+                    <img src="assets/img/HearME.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/yogadit/HearMe" class="portfolio__link-name">View
+                            details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
                     <h4>Simple Calculator App</h4>
-                    <img src="assets/img/calcu.png" alt="">
+                    <img src="assets/img/calcu.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
                     <div class="portfolio__link">
                         <a href="https://github.com/alvinoct/Simple-Calculator" class="portfolio__link-name">View
@@ -222,7 +113,7 @@
                 </div>
                 <div class="portfolio__img">
                     <h4>Video Player & Libary App</h4>
-                    <img src="assets/img/vidplay.png" alt="">
+                    <img src="assets/img/vidplay.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
                     <div class="portfolio__link">
                         <a href="https://github.com/alvinoct/Video-Player-Library" class="portfolio__link-name">View
@@ -231,16 +122,16 @@
                 </div>
                 <div class="portfolio__img">
                     <h4>First Web Team Project</h4>
-                    <img src="assets/img/random.png" alt="">
+                    <img src="assets/img/random.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
                     <div class="portfolio__link">
-                        <a href="https://github.com/alvinoct/RandomCatering" class="portfolio__link-name">View
+                        <a href="https://alvinoct.github.io/RandomCatering/" class="portfolio__link-name">View
                             details</a>
                     </div>
                 </div>
                 <div class="portfolio__img">
                     <h4>Application Mockup</h4>
-                    <img src="assets/img/connect.png" alt="">
+                    <img src="assets/img/connect.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
                     <div class="portfolio__link">
                         <a href="https://www.figma.com/proto/qpSvwd0nXiWChVxAA0Nlx2/Connect?node-id=8%3A58&scaling=scale-down&page-id=0%3A1&starting-point-node-id=11%3A6"
@@ -249,59 +140,57 @@
                 </div>
                 <div class="portfolio__img">
                     <h4>News Website Mockup</h4>
-                    <img src="assets/img/kompas.png" alt="">
+                    <img src="assets/img/kompas.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
                     <div class="portfolio__link">
                         <a href="https://www.figma.com/proto/lDqrGDooijQyjRl7sy6Iur/HCI?node-id=14%3A27&scaling=scale-down&page-id=0%3A1&starting-point-node-id=14%3A27&show-proto-sidebar=1"
                             class="portfolio__link-name">View details</a>
                     </div>
                 </div>
-                 <div class="portfolio__img">
-                     <h4>Lost and Found App</h4>
-                     <img src="assets/img/Ufound.png" alt="">
-
-                     <div class="portfolio__link">
-                         <a href="https://play.google.com/store/apps/details?id=umn.ac.id.u_found"
-                             class="portfolio__link-name">View details</a>
-                     </div>
-                 </div>
-                <!-- <div class="portfolio__img">
-                    <img src="assets/img/work6.jpg" alt="">
+                <div class="portfolio__img">
+                    <h4>Lost and Found App</h4>
+                    <img src="assets/img/Ufound.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
                     <div class="portfolio__link">
-                        <a href="#" class="portfolio__link-name">View details</a>
+                        <a href="https://github.com/alvinoct/Lost-and-Found-App" class="portfolio__link-name">View
+                            details</a>
                     </div>
-                </div> -->
-            </div>
-        </section>
-
-        <!--===== CONTACT =====-->
-        <section class="contact section" id="contact">
-            <h2 class="section-title">Contact</h2>
-
-            <div class="contact__container bd-grid">
-                <div class="contact__info">
-                    <h3 class="contact__subtitle">EMAIL</h3>
-                    <span
-                        class="contact__text">alvin.octavianus@student.umn.ac.id<br>alvinoctavianus1030@gmail.com</span>
-
-                    <h3 class="contact__subtitle">PHONE</h3>
-                    <span class="contact__text">087877532263</span>
-
-                    <h3 class="contact__subtitle">ADRESS</h3>
-                    <span class="contact__text">Kota Tangerang, Indonesia</span>
                 </div>
+                <div class="portfolio__img">
+                    <h4>News Website</h4>
+                    <img src="assets/img/hhznews.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
-                <!-- <form action="" class="contact__form">
-                    <div class="contact__inputs">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
+                    <div class="portfolio__link">
+                        <a href="https://github.com/alvinoct/News-Website" class="portfolio__link-name">View details</a>
                     </div>
+                </div>
+                <div class="portfolio__img">
+                    <h4>Booked Field Website</h4>
+                    <img src="assets/img/hhzarena.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
-                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                    <div class="portfolio__link">
+                        <a href="https://github.com/alvinoct/Book-field-website" class="portfolio__link-name">View
+                            details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h4>Company Profile Internship Project</h4>
+                    <img src="assets/img/mp.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
 
-                    <input type="submit" value="Enviar" class="contact__button">
-                </form> -->
+                    <div class="portfolio__link">
+                        <a href="https://github.com/alvinoct/Company-profile-website-internship-demo"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
+                <div class="portfolio__img">
+                    <h4>Company Profile Intership Project 2</h4>
+                    <img src="assets/img/adamare.png" alt="" style="object-fit: cover; width: 100%; height: 200px;">
+
+                    <div class="portfolio__link">
+                        <a href="https://github.com/alvinoct/Company-profile-website-internship-demo2"
+                            class="portfolio__link-name">View details</a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -310,8 +199,8 @@
     <footer class="footer section">
         <div class="footer__container bd-grid">
             <div class="footer__data">
-                <h2 class="footer__title">ALVIN OCTAVIANUS</h2>
-                <p class="footer__text">My Personal Website</p>
+                <h2 class="footer__title">Project List</h2>
+                <p class="footer__text">Alvin Octavianus Project</p>
             </div>
 
             <div class="footer__data">
@@ -319,9 +208,7 @@
                 <ul>
                     <li><a href="#home" class="footer__link">Home</a></li>
                     <li><a href="#about" class="footer__link">About</a></li>
-                    <li><a href="#skills" class="footer__link">Skills</a></li>
-                    <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                    <li><a href="#portfolio" class="footer__link">Project</a></li>
                 </ul>
             </div>
 
@@ -338,7 +225,7 @@
     </footer>
 
     <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
 
     <!--===== MAIN JS =====-->
      <script src="assets/js/main.js"></script>
